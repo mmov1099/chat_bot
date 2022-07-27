@@ -1,6 +1,9 @@
 # chat bot for pytorch model
 
-docker-compose build
-docker-compose up
+Bring Pytorch's trained model to /bot/output
+
+$ docker-compose build
+
+$ docker-compose up
 
 acces local:8080 in your browser

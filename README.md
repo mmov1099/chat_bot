@@ -6,4 +6,4 @@ $ docker-compose build
 
 $ docker-compose up
 
-acces local:8080 in your browser
+access local:8080 in your browser

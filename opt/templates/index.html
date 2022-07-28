@@ -8,7 +8,6 @@
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <title>chat room</title>
 </head>
@@ -81,7 +80,7 @@
             {% endif %}
             <script>
                 $(function () {
-                    $('#target').animate({ scrollTop: $('#target')[0].scrollHeight }, 'slow');
+                    $('#target').animate({ scrollTop: $('#target')[0].scrollHeight }, 0);
                 });
             </script>
             <form action="/" method="post" class="row card-footer">
